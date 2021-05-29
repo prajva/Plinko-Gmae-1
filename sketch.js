@@ -59,7 +59,6 @@ function draw() {
    }
    if(frameCount%60===0){
      particles.push(new Particle(random(100, 700), 10,10));
-     score++;
    }
  
   for (var j = 0; j < particles.length; j++) {
